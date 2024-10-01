@@ -1,0 +1,32 @@
+diff --git a/node_modules/@sitecore-jss/sitecore-jss/dist/cjs/debug.js b/node_modules/@sitecore-jss/sitecore-jss/dist/cjs/debug.js
+index b0232ce..16b98af 100644
+--- a/node_modules/@sitecore-jss/sitecore-jss/dist/cjs/debug.js
++++ b/node_modules/@sitecore-jss/sitecore-jss/dist/cjs/debug.js
+@@ -39,4 +39,5 @@ exports.default = {
+     redirects: (0, debug_1.default)(`${rootNamespace}:redirects`),
+     personalize: (0, debug_1.default)(`${rootNamespace}:personalize`),
+     errorpages: (0, debug_1.default)(`${rootNamespace}:errorpages`),
++    sitemapxml: (0, debug_1.default)(`${rootNamespace}:sitemapxml`),
+ };
+diff --git a/node_modules/@sitecore-jss/sitecore-jss/dist/esm/debug.js b/node_modules/@sitecore-jss/sitecore-jss/dist/esm/debug.js
+index 60eb210..d403fbd 100644
+--- a/node_modules/@sitecore-jss/sitecore-jss/dist/esm/debug.js
++++ b/node_modules/@sitecore-jss/sitecore-jss/dist/esm/debug.js
+@@ -32,4 +32,5 @@ export default {
+     redirects: debug(`${rootNamespace}:redirects`),
+     personalize: debug(`${rootNamespace}:personalize`),
+     errorpages: debug(`${rootNamespace}:errorpages`),
++    sitemapxml: debug(`${rootNamespace}:sitemapxml`),
+ };
+diff --git a/node_modules/@sitecore-jss/sitecore-jss/types/debug.d.ts b/node_modules/@sitecore-jss/sitecore-jss/types/debug.d.ts
+index 7529fe3..1430d59 100644
+--- a/node_modules/@sitecore-jss/sitecore-jss/types/debug.d.ts
++++ b/node_modules/@sitecore-jss/sitecore-jss/types/debug.d.ts
+@@ -17,6 +17,7 @@ declare const _default: {
+     redirects: debug.Debugger;
+     personalize: debug.Debugger;
+     errorpages: debug.Debugger;
++    sitemapxml: debug.Debugger;
+ };
+ /**
+  * Default Sitecore JSS 'debug' module debuggers. Uses namespace prefix 'sitecore-jss:'.
