@@ -9,11 +9,11 @@
 3. Update `\src\APP_NAME\scripts\generate-plugins.ts` to configure the plugin generation
 
 ```
-   {
+{
    distPath: 'src/temp/sitemapxml-plugins.ts',
    rootPath: 'src/lib/sitemap-xml/plugins',
    moduleType: ModuleType.ESM,
-   },
+},
 ```
 
 4. Build and Deploy.
