@@ -8,7 +8,7 @@
 2. Install patch-package `npm i patch-package` and run `npm i` to apply the patch
 3. Update `\src\APP_NAME\scripts\generate-plugins.ts` to configure the plugin generation
 
-```json
+```
    {
    distPath: 'src/temp/sitemapxml-plugins.ts',
    rootPath: 'src/lib/sitemap-xml/plugins',
