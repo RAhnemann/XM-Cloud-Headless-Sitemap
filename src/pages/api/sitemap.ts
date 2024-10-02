@@ -50,7 +50,7 @@ const sitemapApi = async (
 
   //Set some defaults. Can always be overridden later
   sitemapConfig['hostname'] = hostName;
-  sitemapConfig['languages'] = 'en|en-ca';
+  sitemapConfig['languages'] = 'en';
   sitemapConfig['default_language'] = 'en';
   sitemapConfig['include_alternate_links'] = 'true';
   sitemapConfig['include_x_default'] = 'true';
